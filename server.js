@@ -9,5 +9,5 @@ app.listen(PORT, () => {
 })
 
 app.get('/', (req, res) => {
-    res.send("<h2 style='color:red; font-size:1rem;'>Welcome to Home Page in Cyclic App!</h2>")
+    res.send("<h2 style='color:red; font-size:3rem;'>Welcome to Home Page in Cyclic App!</h2>")
 });
